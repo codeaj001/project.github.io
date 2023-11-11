@@ -1,0 +1,114 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f7efda;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 450px;
+    transition: filter 0.3s;
+}
+
+.login-container.blur {
+    filter: blur(5px);
+}
+
+.login-container h2 {
+    margin: 0;
+    padding: 30px 10px;
+    font-size: 30px;
+}
+
+.login-container label {
+    display: flex;
+    margin-top: 20px;
+    font-weight: Medium 500;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container button {
+    background: #57430E;
+    color: #fde6a7;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 20%;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+@media screen and (max-width: 300px) {
+    .login-container button {
+        font-size: 10px;
+        width: 70px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .login-container button {
+        width: 90px;
+    }
+}
+.login-container button:hover {
+    background: #fde6a7;
+    color: #57430E;
+    width: 22%;
+    transition: .3s;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.popup h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.popup button {
+    background: #fde6a7;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #57430E;
+    font-weight: 600;
+}
+
+.popup button:hover {
+    background: #57430E;
+    color: #fde6a7;
+}

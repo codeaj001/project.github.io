@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+
+        <form action="#" method="post">
+            <label for="email">Email/Login ID:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#" class="login-link" onclick="showSignUpOptions()">Sign Up</a></p>
+    </div>
+
+    <div class="popup" id="signup-options">
+        <h2>Sign Up as:</h2>
+        <button onclick="location.href='student_signup.html'">Student</button>
+        <button onclick="location.href='lecturer_signup.html'">Lecturer</button>
+    </div>
+
+    <script>
+
+    function showSignUpOptions() {
+        var loginContainer = document.querySelector(".login-container");
+        var popup = document.getElementById("signup-options");
+
+        // Add a blur class to the login container
+        loginContainer.classList.add("blur");
+
+        popup.style.display = "block";
+        
+    }
+
+    </script>
+</body>
+</html>

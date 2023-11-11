@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="../css/student.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+        <a href="/testing/index.html"><h2>Logo</h2></a>
+    </div>
+  
+    <div class="topNav" id="myTopNav">
+      <a class="topNavLinks" href="profile.html">Profile</a>
+      <a class="topNavLinks" href="upload.html">Upload a Project</a>
+      <a class="topNavLinks" href="/testing/index.html">Home</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </header>
+  <!-- <a class="upload_sec" href="upload.html"><h4>Upload a Project</h4></a> -->
+ 
+  <div class="search_area">
+      <form action="#">
+          <input class="srch_in" type="text" placeholder="Search for topic">
+          <button class="srch_but" type="submit">Search</button>
+      </form>
+  </div>
+
+
+    <main>
+      <section class="columnOne">
+        <h3>DEPARTMENTS</h3>
+        <div class="rowOne">Cyber Security</div>
+        <div class="rowTwo">Computer Science</div>
+        <div class="rowThree">Software Engineering</div>
+        <div class="rowFour">Information Technology</div>
+      </section>
+
+  <!--   Second column   -->
+      <section class="columnTwo">
+        <h3 class="sess">SESSIONS</h3>
+        <section class="cyber hidden">
+          <div class="cyberOne">2010/2011</div>
+          <div class="cyberTwo">2020/2021</div>
+        </section>
+        
+        <section class="compSci hidden">
+          <div class="compSciOne">2030/2031</div>
+          <div class="compSciTwo">2040/2041</div>
+        </section>
+        
+        <section class="softEng hidden">
+          <div class="softEngOne">2050/2051</div>
+          <div class="softEngTwo">2060/2061</div>
+        </section>
+        
+        <section class="infoTech hidden">
+          <div class="infoTechOne">2070/2071</div>
+          <div class="infoTechTwo">2080/2081</div>
+        </section>
+        
+      </section>
+  <!--  End of second column   -->
+
+  <!-- Beginning of the third column -->
+    <section class="columnThree">
+        <h3 class="topics">TOPICS</h3>
+        <!-- This is the topics name -->
+        <section class="one hidden">
+          <div class="oneOne">Introduction to Cyber Security
+            <span id="accepted">&check;</span>
+            <span id="declined"> &#x2717;</span>
+          </div>
+
+          <div class="oneTwo">Art of Ethical Hacking
+            <span id="accepted">&check;</span>
+            <span id="declined"> &#x2717;</span>
+          </div>
+        </section>
+
+        <section class="two hidden">
+            <div class="twoOne">Penetration Testing with Kali Linux
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+  
+            <div class="twoTwo">Introduction to Psychology
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+        </section>
+
+        <section class="three hidden">
+            <div class="threeOne">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+  
+            <div class="threeTwo">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+        </section>
+
+        <section class="four hidden">
+            <div class="fourOne">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+  
+            <div class="fourTwo">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+        </section>
+
+        <section class="five hidden">
+            <div class="fiveOne">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+  
+            <div class="fiveTwo">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+        </section>
+
+        <section class="six hidden">
+            <div class="sixOne">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+  
+            <div class="sixTwo">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+        </section>
+
+        <section class="sev hidden">
+            <div class="sevOne">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+  
+            <div class="sevTwo">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+        </section>
+
+        <section class="eig hidden">
+            <div class="eigOne">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+  
+            <div class="eigTwo">Topic Name
+              <span id="accepted">&check;</span>
+              <span id="declined">&#x2717;</span>
+            </div>
+        </section>
+
+    </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

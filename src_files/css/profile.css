@@ -1,0 +1,158 @@
+body {
+    background-color: white;
+    color: #57430E;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fde6a7;
+  }
+  
+  header .logo a {
+    text-decoration: none;
+    color: #57430E;
+    text-transform: uppercase;
+  }
+  
+  header .logo a h2 {
+    padding: 0px 30px;
+  }
+  
+  .topNav {
+    overflow: hidden;
+    background-color: #fde6a7;
+    margin-right: 50px;
+  }
+  
+  .topNav a {
+    float: right;
+    display: block;
+    color: #57430E;
+    text-align: center;
+    padding: 20px 14px 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .topNav a:hover {
+    background-color: #57430E;
+    color: #fde6a7;
+  }
+  
+  .topNav a.icon:hover {
+    background-color: #fde6a7;
+    color: #57430e;
+    width: 17px;
+  }
+  
+  .topNav a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  .topNav .icon {
+    display: none;
+  }
+  
+  .topNav a img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topNav a:not(:last-child) {
+      display: none;
+    }
+    .topNav a.icon {
+      float: right;
+      display: block;
+    }
+    .topNav a {
+      font-size: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topNav.responsive {
+      position: relative;
+    }
+    .topNav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topNav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topNav {
+      margin-right: 10px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 240px) {
+    header .topNav .topNavLinks {
+      font-size: 80%;
+    }
+  }
+  
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 24px;
+}
+
+.profile p {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons button {
+    margin: 10px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0px;
+    border: none;
+    background-color: #57430E;
+    color: #fff;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    padding: 12px 2px;
+    transition: .3s;
+}

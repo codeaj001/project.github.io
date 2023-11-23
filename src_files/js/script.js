@@ -1,3 +1,5 @@
+
+
 // Storing as const vars
 const rowOne = document.querySelector('.rowOne');
 const rowTwo = document.querySelector('.rowTwo');
@@ -32,6 +34,15 @@ const sev = document.querySelector('.sev');
 const eig = document.querySelector('.eig');
 const topics = document.querySelector('.topics');
 
+//Back buttons
+const back = document.getElementById('back');
+const back2 = document.getElementById('back2');
+
+
+//Class Names of each column
+const columnOne = document.getElementById('columnOne');
+const columnTwo = document.getElementById('columnTwo');
+const columnThree = document.getElementById('columnThree');
 
 
 // Add click event listeners to the row elements
@@ -41,6 +52,12 @@ rowOne.addEventListener('click', () => {
     softEngSection.style.display = 'none';
     infoTechSection.style.display = 'none';
     sess.style.display = 'block';
+
+    //Column one disppears
+    columnOne.style.display = 'none';
+    // Back button
+    back.style.display = 'inline-block';
+    
 });
 
 rowTwo.addEventListener('click', () => {
@@ -49,6 +66,11 @@ rowTwo.addEventListener('click', () => {
     softEngSection.style.display = 'none';
     infoTechSection.style.display = 'none';
     sess.style.display = 'block';
+
+    //Column one disppears
+    columnOne.style.display = 'none';
+    // Back button
+    back.style.display = 'inline-block';
 });
 
 rowThree.addEventListener('click', () => {
@@ -57,6 +79,11 @@ rowThree.addEventListener('click', () => {
     softEngSection.style.display = 'block';
     infoTechSection.style.display = 'none';
     sess.style.display = 'block';
+
+    //Column one disppears
+    columnOne.style.display = 'none';
+    // Back button
+    back.style.display = 'inline-block';
 });
 
 rowFour.addEventListener('click', () => {
@@ -65,6 +92,11 @@ rowFour.addEventListener('click', () => {
     softEngSection.style.display = 'none';
     infoTechSection.style.display = 'block';
     sess.style.display = 'block';
+
+    //Column one disppears
+    columnOne.style.display = 'none';
+    // Back button
+    back.style.display = 'inline-block';
 });
 
 // Third column to display
@@ -79,6 +111,11 @@ cyberOne.addEventListener('click', () => {
     sev.style.display = 'none';
     eig.style.display = 'none';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
+    back2.style.display = 'inline-block';
+    back.style.display = 'none';
 });
 
 cyberTwo.addEventListener('click', () => {
@@ -91,6 +128,9 @@ cyberTwo.addEventListener('click', () => {
     sev.style.display = 'none';
     eig.style.display = 'none';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
 });
 
 compSciOne.addEventListener('click', () => {
@@ -103,6 +143,9 @@ compSciOne.addEventListener('click', () => {
     sev.style.display = 'none';
     eig.style.display = 'none';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
 });
 
 compSciTwo.addEventListener('click', () => {
@@ -115,6 +158,9 @@ compSciTwo.addEventListener('click', () => {
     sev.style.display = 'none';
     eig.style.display = 'none';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
 });
 
 softEngOne.addEventListener('click', () => {
@@ -127,6 +173,9 @@ softEngOne.addEventListener('click', () => {
     sev.style.display = 'none';
     eig.style.display = 'none';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
 });
 
 softEngTwo.addEventListener('click', () => {
@@ -139,6 +188,9 @@ softEngTwo.addEventListener('click', () => {
     sev.style.display = 'none';
     eig.style.display = 'none';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
 });
 
 infoTechOne.addEventListener('click', () => {
@@ -151,6 +203,9 @@ infoTechOne.addEventListener('click', () => {
     sev.style.display = 'block';
     eig.style.display = 'none';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
 });
 
 infoTechTwo.addEventListener('click', () => {
@@ -163,7 +218,15 @@ infoTechTwo.addEventListener('click', () => {
     sev.style.display = 'none';
     eig.style.display = 'block';
     topics.style.display = 'block';
+
+    //Column two disappears
+    columnTwo.style.display = 'none';
 });
+
+
+
+
+//If the back button is clicked the function below work
 
 function myFunction() {
 var x = document.getElementById("myTopNav");

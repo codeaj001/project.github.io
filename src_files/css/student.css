@@ -207,39 +207,34 @@ header .logo a h2 {
 
 main {
   display: flex;
-  width: 80%;
-  height: 300px;
-  margin: 0 auto;
-/*   height: 200px; */
-  /* background-color: red; */
+  /* width: 80%; */
+  /* height: 300px; */
+  margin: 0 30%;
   justify-content: center;
   text-align: center;
-  border: 5px solid #fde6a7;
+  /* border: 5px solid #fde6a7; */
   border-radius: 10px;
+  font-size: 30px;
 }
 
-main section {
-  margin: 4px;
+
+main button {
+  height: 30%;
+  cursor: pointer;
+  display: none;
 }
 
-main .columnOne {
-  width: 30%;
-  /* background-color: green; */
-  /* color: white; */
-}
+
 main .columnTwo {
-  width: 30%;
-  /* background-color: pink; */
-  border: 1px solid #fde6a7;
+  /* width: 30%; */
+  /* border: 1px solid #fde6a7; */
   border-radius: 10px;
-}
-main .columnThree {
-  width: 40%;
-  /* background-color: blue; */
 }
 
 main section h3 {
-  font-size: 100%;
+  border: 5px solid #fde6a7;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 main section div {

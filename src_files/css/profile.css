@@ -12,16 +12,12 @@ header {
     background-color: #fde6a7;
   }
   
-  header .logo a {
-    text-decoration: none;
-    color: #57430E;
-    text-transform: uppercase;
+  .logo {
+    margin: 10px 100px;
   }
-  
-  header .logo a h2 {
-    padding: 0px 30px;
+  .logo a img {
+    width: 30%;
   }
-  
   .topNav {
     overflow: hidden;
     background-color: #fde6a7;

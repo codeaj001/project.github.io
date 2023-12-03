@@ -72,6 +72,9 @@ header {
     .topNav a {
       font-size: 80%;
     }
+      .logo {
+          margin: 10px 30px;
+      }
   }
   
   @media screen and (max-width: 600px) {
@@ -91,6 +94,9 @@ header {
     .topNav {
       margin-right: 10px;
     }
+      .logo {
+          margin: 10px 30px;
+      }
   
   }
   
@@ -98,6 +104,9 @@ header {
     header .topNav .topNavLinks {
       font-size: 80%;
     }
+      .logo {
+          margin: 10px 30px;
+      }
   }
   
 

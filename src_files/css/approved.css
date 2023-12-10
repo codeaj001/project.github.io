@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fde6a7;
+  width: 100%;
+}
+
+.logo {
+  margin: 10px 100px;
+}
+.logo a img {
+  width: 30%;
+}
+
+.topNav {
+  overflow: hidden;
+  background-color: #fde6a7;
+  margin-right: 50px;
+}
+
+.topNav a {
+  float: right;
+  display: block;
+  color: #57430e;
+  text-align: center;
+  padding: 20px 14px 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.topNav a:hover {
+  background-color: #57430e;
+  color: #fde6a7;
+}
+
+.topNav a.icon:hover {
+  background-color: #fde6a7;
+  color: #57430e;
+  width: 17px;
+}
+
+.topNav a.active {
+  background-color: red;
+  color: white;
+}
+
+.topNav .icon {
+  display: none;
+}
+
+.topNav a img {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .topNav a:not(:last-child) {
+    display: none;
+  }
+  .topNav a.icon {
+    float: right;
+    display: block;
+  }
+  .topNav a {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topNav.responsive {
+    position: relative;
+  }
+  .topNav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topNav {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  header .topNav .topNavLinks {
+    font-size: 80%;
+  }
+}
+
+/* End of header */
+
+.search_area {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+
+.search_area > form > input {
+  width: 50%;
+  height: 40px;
+  outline: none;
+  border: 1px solid #57430e;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.search_area > form > button {
+  width: 30%;
+  height: 40px;
+  outline: none;
+  border: 1px solid #57430e;
+  border-radius: 20px;
+  background-color: #fde6a7;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search_area > form > button:hover {
+  box-shadow: 3px 3px 20px #57430e;
+  transition: 0.3s;
+}
+
+.srch_in::placeholder {
+  color: #57430e;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+}
+
+@media screen and (max-width: 240px) {
+  .search_area {
+    margin-bottom: 25px;
+    margin-left: 10px;
+  }
+  .upload_sec {
+    font-size: 13px;
+  }
+  .search_area form .srch_in::placeholder {
+    font-size: 10px;
+  }
+}
+
+/* Android Device Responsiveness */
+@media screen and (max-width: 350px) {
+  .search_area {
+    width: 80%;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .search_area form .srch_in {
+    width: 50%;
+  }
+  .search_area form .srch_but {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .search_area {
+    padding-top: 5px;
+    margin-left: 10px;
+  }
+
+  .search_area > form > input {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+/* Tablet/Wider screen Device Responsiveness */
+@media screen and (max-width: 500px) {
+  .search_area {
+    padding-top: 18px;
+    margin-left: 10px;
+  }
+
+  .search_area > form > input {
+    width: 220px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 18px;
+  }
+
+  .search_area > form > button {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+main {
+  display: flex;
+  /* width: 80%; */
+  /* height: 300px; */
+  margin: 0 30%;
+  justify-content: center;
+  text-align: center;
+  /* border: 5px solid #fde6a7; */
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+main button {
+  height: 30%;
+  cursor: pointer;
+}
+
+main section h3 {
+  border: 5px solid #fde6a7;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main section div {
+  font-size: 100%;
+  padding: 5px 0px;
+}
+main section div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+main .one {
+  margin-bottom: 100px;
+}
+
+main .zero {
+  padding-bottom: 15px;
+}
+
+main .zero a button {
+  padding: 10px 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #fde6a7;
+  border-radius: 10px;
+}
+
+main .zero a button:hover {
+  background-color: #57430e;
+  color: #fff;
+}
+
+/* main responsiveness */
+/* RESPONSIVENESS */
+@media screen and (max-width: 240px) {
+  main {
+    width: 80%;
+    border: 2px solid #fde6a7;
+  }
+  main .columnOne {
+    width: 25%;
+  }
+  main .columnTwo {
+    width: 25%;
+  }
+  main .columnThree {
+    width: 30%;
+  }
+  main section h3 {
+    font-size: 10px;
+  }
+  main section div {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 350px) {
+  main {
+    /* display: block; */
+    width: 80%;
+  }
+  main .columnOne {
+    width: 30%;
+  }
+  main .columnTwo {
+    width: 30%;
+  }
+  main .columnThree {
+    width: 40%;
+  }
+  main section h3 {
+    font-size: 60%;
+  }
+  main section div {
+    font-size: 80%;
+    padding: 5px 0px;
+  }
+}
+
+/* Styling main*/
+
+.columnThree section div span {
+  width: 12px;
+  height: 12px;
+}
+
+.columnThree section div #accepted {
+  background-color: green;
+  color: #fff;
+}
+
+.columnThree section div #declined {
+  background-color: red;
+  color: #fff;
+}

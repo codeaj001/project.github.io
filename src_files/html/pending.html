@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pending Topics</title>
+    <link rel="stylesheet" href="../css/approved.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="student.html"><img src="../img/logo.png" alt="" /></a>
+      </div>
+
+      <div class="topNav" id="myTopNav">
+        <a class="topNavLinks" href="profile.html">Profile</a>
+        <a class="topNavLinks" href="upload.html">Upload a Project</a>
+        <a class="topNavLinks" href="student.html">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <!-- <a class="upload_sec" href="upload.html"><h4>Upload a Project</h4></a> -->
+
+    <div class="search_area">
+      <form action="#">
+        <input class="srch_in" type="text" placeholder="Search for topic" />
+        <button class="srch_but" type="submit">Search</button>
+      </form>
+    </div>
+
+    <main>
+      <!-- Beginning of the third column -->
+      <section class="columnThree" id="columnThree">
+        <h3 class="topics">PENDING TOPICS</h3>
+        <!-- This is the topics name -->
+        <section class="zero hidden filter">
+          <a class="fltBut appr" href="approved.html"
+            ><button>Approved</button></a
+          >
+          <a class="fltBut rejc" href="../html/rejected.html"
+            ><button>Rejected</button></a
+          >
+          <a class="fltBut pend" href="../html/pending.html"
+            ><button>Pending</button></a
+          >
+        </section>
+        <section class="one hidden">
+          <div class="oneOne">Introduction to Cyber Security</div>
+          <div class="oneTwo">Art of Ethical Hacking</div>
+          <div class="twoOne">Penetration Testing with Kali Linux</div>
+          <div class="twoTwo">Introduction to Psychology</div>
+          <div class="twoTwo">Introduction to Psychology</div>
+        </section>
+      </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

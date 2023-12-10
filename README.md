@@ -1,10 +1,10 @@
-# Plagiarism Detection Site
+# Plagiarism Detection Site 📝🔍
 
 ## Overview
 
 This web application is a Plagiarism Detection Site developed to assist users in identifying potential plagiarism in textual content. The application is built using a combination of HTML, CSS, JavaScript for the frontend, and Django for the backend.
 
-## Features
+## Features 🚀
 
 - **User Authentication:**
   - Secure user authentication system to manage user access and protect sensitive information.
@@ -21,7 +21,7 @@ This web application is a Plagiarism Detection Site developed to assist users in
 - **User-Friendly Interface:**
   - Responsive design using HTML and CSS for an optimal user experience on various devices.
 
-## Technologies Used
+## Technologies Used 💻
 
 - **Frontend:**
   - HTML
@@ -31,7 +31,7 @@ This web application is a Plagiarism Detection Site developed to assist users in
 - **Backend:**
   - Django (Python web framework)
 
-## Getting Started
+## Getting Started 🛠️
 
 1. **Clone the Repository:**
    ```bash

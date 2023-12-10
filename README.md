@@ -1,4 +1,4 @@
-# Plagiarism Detection Site 📝🔍
+# Plagiarism Site 📝🔍
 
 ## Overview
 

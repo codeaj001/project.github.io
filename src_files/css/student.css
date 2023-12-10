@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	display: flex;
+  display: flex;
   justify-content: space-between;
   background-color: #fde6a7;
   width: 100%;
@@ -18,7 +18,6 @@ header {
   width: 30%;
 }
 
-
 .topNav {
   overflow: hidden;
   background-color: #fde6a7;
@@ -28,7 +27,7 @@ header {
 .topNav a {
   float: right;
   display: block;
-  color: #57430E;
+  color: #57430e;
   text-align: center;
   padding: 20px 14px 10px 20px;
   text-decoration: none;
@@ -38,7 +37,7 @@ header {
 }
 
 .topNav a:hover {
-  background-color: #57430E;
+  background-color: #57430e;
   color: #fde6a7;
 }
 
@@ -64,7 +63,7 @@ header {
 
 @media screen and (max-width: 600px) {
   .topNav a:not(:last-child) {
-  	display: none;
+    display: none;
   }
   .topNav a.icon {
     float: right;
@@ -77,7 +76,7 @@ header {
 
 @media screen and (max-width: 600px) {
   .topNav.responsive {
-  	position: relative;
+    position: relative;
   }
   .topNav.responsive .icon {
     position: absolute;
@@ -92,7 +91,6 @@ header {
   .topNav {
     margin-right: 10px;
   }
-
 }
 
 @media screen and (max-width: 240px) {
@@ -102,7 +100,6 @@ header {
 }
 
 /* End of header */
-
 
 .search_area {
   text-align: center;
@@ -114,7 +111,7 @@ header {
   width: 50%;
   height: 40px;
   outline: none;
-  border: 1px solid #57430E;
+  border: 1px solid #57430e;
   border-radius: 10px;
   font-size: 18px;
   padding-left: 10px;
@@ -125,20 +122,20 @@ header {
   width: 30%;
   height: 40px;
   outline: none;
-  border: 1px solid #57430E;
+  border: 1px solid #57430e;
   border-radius: 20px;
   background-color: #fde6a7;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .search_area > form > button:hover {
-  box-shadow: 3px 3px 20px #57430E;
-  transition: .3s;
+  box-shadow: 3px 3px 20px #57430e;
+  transition: 0.3s;
 }
 
 .srch_in::placeholder {
-  color: #57430E;
+  color: #57430e;
   font-weight: bold;
   font-style: italic;
   font-size: 80%;
@@ -160,7 +157,7 @@ header {
 /* Android Device Responsiveness */
 @media screen and (max-width: 350px) {
   .search_area {
-    width: 80%; 
+    width: 80%;
     text-align: center;
     margin-left: 10px;
   }
@@ -173,34 +170,34 @@ header {
 }
 @media only screen and (max-width: 400px) {
   .search_area {
-      padding-top: 5px;
-      margin-left: 10px;
+    padding-top: 5px;
+    margin-left: 10px;
   }
-  
+
   .search_area > form > input {
-      width: 150px;
-      height: 30px;
-      font-size: 15px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
   }
 }
 
 /* Tablet/Wider screen Device Responsiveness */
 @media screen and (max-width: 500px) {
   .search_area {
-      padding-top: 18px;
-      margin-left: 10px;
+    padding-top: 18px;
+    margin-left: 10px;
   }
-  
+
   .search_area > form > input {
-      width: 220px;
-      height: 30px;
-      font-size: 15px;
-      margin-right: 18px;
+    width: 220px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 18px;
   }
-  
+
   .search_area > form > button {
-      width: 100px;
-      height: 30px;
+    width: 100px;
+    height: 30px;
   }
 }
 
@@ -216,13 +213,11 @@ main {
   font-size: 30px;
 }
 
-
 main button {
   height: 30%;
   cursor: pointer;
   display: none;
 }
-
 
 main .columnTwo {
   /* width: 30%; */
@@ -254,6 +249,20 @@ main section div:hover {
   display: none;
 }
 
+.hidden div a {
+  text-decoration: none;
+  color: #fde6a7;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #57430e;
+}
+
+.hidden div a:hover {
+  text-decoration: underline;
+}
+
 /* main responsiveness */
 /* RESPONSIVENESS */
 @media screen and (max-width: 240px) {
@@ -275,7 +284,6 @@ main section div:hover {
   }
   main section div {
     font-size: 9px;
-
   }
 }
 @media screen and (max-width: 350px) {
@@ -301,7 +309,6 @@ main section div:hover {
   }
 }
 
-
 /* Styling main*/
 
 .columnThree section div span {
@@ -318,4 +325,3 @@ main section div:hover {
   background-color: red;
   color: #fff;
 }
-

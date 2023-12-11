@@ -23,13 +23,13 @@ const infoTechTwo = document.querySelector(".infoTechTwo");
 // This is for the third column to be displayed
 
 const one = document.querySelector(".one");
-const two = document.querySelector(".two");
-const three = document.querySelector(".three");
-const four = document.querySelector(".four");
-const five = document.querySelector(".five");
-const six = document.querySelector(".six");
-const sev = document.querySelector(".sev");
-const eig = document.querySelector(".eig");
+// const two = document.querySelector(".two");
+// const three = document.querySelector(".three");
+// const four = document.querySelector(".four");
+// const five = document.querySelector(".five");
+// const six = document.querySelector(".six");
+// const sev = document.querySelector(".sev");
+// const eig = document.querySelector(".eig");
 const topics = document.querySelector(".topics");
 
 //Back buttons
@@ -98,13 +98,6 @@ rowFour.addEventListener("click", () => {
 
 cyberOne.addEventListener("click", () => {
   one.style.display = "block";
-  two.style.display = "none";
-  three.style.display = "none";
-  four.style.display = "none";
-  five.style.display = "none";
-  six.style.display = "none";
-  sev.style.display = "none";
-  eig.style.display = "none";
   topics.style.display = "block";
 
   //Column two disappears
@@ -114,106 +107,50 @@ cyberOne.addEventListener("click", () => {
 });
 
 cyberTwo.addEventListener("click", () => {
-  one.style.display = "none";
-  two.style.display = "block";
-  three.style.display = "none";
-  four.style.display = "none";
-  five.style.display = "none";
-  six.style.display = "none";
-  sev.style.display = "none";
-  eig.style.display = "none";
+  one.style.display = "block";
   topics.style.display = "block";
-
   //Column two disappears
   columnTwo.style.display = "none";
 });
 
 compSciOne.addEventListener("click", () => {
-  one.style.display = "none";
-  two.style.display = "none";
-  three.style.display = "block";
-  four.style.display = "none";
-  five.style.display = "none";
-  six.style.display = "none";
-  sev.style.display = "none";
-  eig.style.display = "none";
+  one.style.display = "block";
   topics.style.display = "block";
-
   //Column two disappears
   columnTwo.style.display = "none";
 });
 
 compSciTwo.addEventListener("click", () => {
-  one.style.display = "none";
-  two.style.display = "none";
-  three.style.display = "none";
-  four.style.display = "block";
-  five.style.display = "none";
-  six.style.display = "none";
-  sev.style.display = "none";
-  eig.style.display = "none";
+  one.style.display = "block";
   topics.style.display = "block";
-
   //Column two disappears
   columnTwo.style.display = "none";
 });
 
 softEngOne.addEventListener("click", () => {
-  one.style.display = "none";
-  two.style.display = "none";
-  three.style.display = "none";
-  four.style.display = "none";
-  five.style.display = "block";
-  six.style.display = "none";
-  sev.style.display = "none";
-  eig.style.display = "none";
+  one.style.display = "block";
   topics.style.display = "block";
-
   //Column two disappears
   columnTwo.style.display = "none";
 });
 
 softEngTwo.addEventListener("click", () => {
-  one.style.display = "none";
-  two.style.display = "none";
-  three.style.display = "none";
-  four.style.display = "none";
-  five.style.display = "none";
-  six.style.display = "block";
-  sev.style.display = "none";
-  eig.style.display = "none";
+  one.style.display = "block";
   topics.style.display = "block";
-
   //Column two disappears
   columnTwo.style.display = "none";
 });
 
 infoTechOne.addEventListener("click", () => {
-  one.style.display = "none";
-  two.style.display = "none";
-  three.style.display = "none";
-  four.style.display = "none";
-  five.style.display = "none";
-  six.style.display = "none";
-  sev.style.display = "block";
-  eig.style.display = "none";
+  one.style.display = "block";
   topics.style.display = "block";
-
   //Column two disappears
   columnTwo.style.display = "none";
 });
 
 infoTechTwo.addEventListener("click", () => {
-  one.style.display = "none";
-  two.style.display = "none";
-  three.style.display = "none";
-  four.style.display = "none";
-  five.style.display = "none";
-  six.style.display = "none";
-  sev.style.display = "none";
-  eig.style.display = "block";
+  one.style.display = "block";
   topics.style.display = "block";
-
   //Column two disappears
   columnTwo.style.display = "none";
 });

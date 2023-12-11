@@ -254,6 +254,10 @@ main .zero a button:hover {
   color: #fff;
 }
 
+.one div a {
+  color: #57430e;
+}
+
 /* main responsiveness */
 /* RESPONSIVENESS */
 @media screen and (max-width: 240px) {

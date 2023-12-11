@@ -257,6 +257,16 @@ main section div {
   text-decoration: underline;
 }
 
+.columnTwo section div,
+.columnOne div {
+  cursor: pointer;
+}
+
+.columnTwo section div:hover,
+.columnOne div:hover {
+  text-decoration: underline;
+}
+
 /* main responsiveness */
 /* RESPONSIVENESS */
 @media screen and (max-width: 240px) {
